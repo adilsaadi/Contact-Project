@@ -1,0 +1,46 @@
+@CHARSET "windows-1256";
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	color: #818181;
+	background-image: url("../vintage-phonejpg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container-fluid {
+	padding: 80px 0;
+}
+
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: #565554;
+	z-index: 9999;
+	border: 0;
+	font-size: 12px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+	font-family: Montserrat, sans-serif;
+}
+.no-padding{
+	padding :0;
+}
+@media screen and (max-width: 320px) {
+	.navbar-brand {
+		width: 50%;
+		height: 50%;
+	}
+}

@@ -1,0 +1,14 @@
+@CHARSET "windows-1256";
+
+.group-border,.group > .panel-heading {
+	border-color: cyan;
+}
+.group-bg, .group > .panel-heading {
+	background-color: cyan;
+	color: black;
+}
+.btn.group-bg:HOVER{
+	background: white;
+	color: cyan;
+	border-color: cyan;
+}

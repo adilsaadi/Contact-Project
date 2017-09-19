@@ -1,0 +1,13 @@
+@CHARSET "windows-1256";
+
+.contact-border,.contact > .panel-heading {
+	border-color: #fca225;
+}
+.contact > .panel-heading,.contact-bg {
+	background-color: #fca225;
+}
+.btn.contact-bg:HOVER{
+	background: white;
+	color: #fca225;
+	border-color: #fca225;
+}

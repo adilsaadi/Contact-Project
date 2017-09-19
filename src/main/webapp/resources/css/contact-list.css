@@ -1,0 +1,45 @@
+@CHARSET "windows-1256";
+.list-border,.list > .panel-heading {
+	border-color:  #77f442;
+}
+.list-bg, .list > .panel-heading {
+	background-color:  #77f442;
+	color: black;
+}
+.list.row{
+	margin-bottom: 10px;
+}
+.tabs-left{
+  border-bottom: none;
+  padding-top: 2px;
+}
+.tabs-left {
+  border-right: 1px solid #ddd;
+}
+.tabs-left>li, .tabs-right>li {
+  float: none;
+  margin-bottom: 2px;
+}
+.tabs-left>li {
+border-bottom :1px solid #ddd;
+  margin-right: -1px;
+}
+.tabs-left>li>a{
+  margin-right: 0;
+  display:block;
+}
+.nav-tabs > li> a,.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,.nav-tabs > li > a:hover {
+		border:none;
+		background: transparent;
+}
+.nav-tabs > li:visited{
+	background:black;
+}
+.nav-tabs > li:hover{
+	background:#ddd;
+}
+/*
+.tabs-left>li>a.group-icon{
+  border-radius: 4px 0 0 4px;
+	border-right : none;
+}*/
